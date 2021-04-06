@@ -18,6 +18,7 @@ for (int i = 0; i < 4; i++)
 
 int* p = marks;
 cout << " the value of *p is " << *p << endl;
+cout << " the value of p is " << p << endl;
 cout << " the value of *(++p) is " << *(++p) << endl;
 cout << " the value of *(p++) is " << *(p++) << endl;
 cout << " the value of *(++p)  is " << *(p) << endl;

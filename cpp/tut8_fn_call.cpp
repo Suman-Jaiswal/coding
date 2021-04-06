@@ -5,11 +5,13 @@ void swap(int a,int b){
   int temp = a ;
   a=b;
   b=temp;
+   
 }
 void pointerswap(int* a,int* b){
   int temp = *a ;
   *a = *b;
   *b = temp;
+
 }
 void swapreferencevar(int &a,int  &b){
   int temp = a ;

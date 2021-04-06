@@ -7,8 +7,10 @@ int main (){
   cout << "***** Quadratic Equation Solver *****" << endl;
   cout << " Ax^2 + Bx + c = 0" << endl;
   cout << endl;
+  char i;
 
-  for (bool k= 1; k==1;){
+  do {
+    
     float a , b , c;
     cout << "A = " ;
     cin>> a ;
@@ -36,12 +38,9 @@ int main (){
     }
 
     cout << endl;
-    cout << " press 1 to run again or 0 to exit." ;
-    cin>> k ;
-    if (k==1)
-    {
-      continue;
-    }
-  }
+    cout << "Do you want to run again? (y/n)" << endl;
+    cin>> i;
+  } while (i=='y');
+  
  return 0;
 }
